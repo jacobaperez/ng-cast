@@ -1,4 +1,10 @@
 angular.module('video-player')
 .component('videoListEntry', {
-  // TODO
+  bindings: {
+    eachvideo: '<', 
+  },
+
+
+
+  templateUrl: "src/templates/videoListEntry.html"
 });

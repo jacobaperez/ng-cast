@@ -6,8 +6,8 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "test": "karma start",
-    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash"
+    "start": "lite-server",
+    "test": "karma start"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
