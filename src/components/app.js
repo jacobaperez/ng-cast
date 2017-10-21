@@ -5,11 +5,11 @@ angular.module('video-player')
   controller: function() {
     this.videos = window.exampleVideoData;
     this.current = window.exampleVideoData[0];
-    console.log(this.current)
+    // console.log(this.current)
 
     this.runthisvideo = function(index){
-      console.log(this);
-      console.log(index)
+      // console.log(this);
+      console.log(this.videos[index]);
       this.current = this.videos[index];
       //console.log("this is hopefully new current vid", index)
     };
